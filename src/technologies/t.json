@@ -705,11 +705,11 @@
     ],
     "description": "The Hut Group is an ecommerce business that sells own-brand and third-party products covering health and beauty, fashion, accessories and sport across 160 websites in 35 languages.",
     "icon": "TheHutGroup.png",
+    "oss": false,
+    "saas": false,
     "scriptSrc": [
       "THEHUT-.*\\.js"
     ],
-    "saas": false,
-    "oss": false,
     "website": "https://www.thg.com"
   },
   "The Theme Foundry Make": {

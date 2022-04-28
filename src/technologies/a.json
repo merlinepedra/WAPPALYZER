@@ -1645,6 +1645,37 @@
     "scriptSrc": "\\.afterbuy\\.de/",
     "website": "http://www.afterbuy.de"
   },
+  "AfterShip": {
+    "cats": [
+      19
+    ],
+    "description": "AfterShip provides automated shipment tracking as a service.",
+    "icon": "AfterShip.svg",
+    "js": {
+      "aftership.__VERSION__": "([\\d\\.]+)\\;version:\\1"
+    },
+    "pricing": [
+      "freemium",
+      "payg"
+    ],
+    "saas": true,
+    "website": "https://www.aftership.com"
+  },
+  "AfterShip Returns Center": {
+    "cats": [
+      102
+    ],
+    "description": "AfterShip Returns Center is an interactive self-service return solution.",
+    "dom": "a[href*='.returnscenter.com']",
+    "icon": "AfterShip Returns Center.svg",
+    "pricing": [
+      "freemium",
+      "payg"
+    ],
+    "saas": true,
+    "url": "https.+\\.returnscenter\\.com",
+    "website": "https://www.aftership.com/returns"
+  },
   "Afterpay": {
     "cats": [
       41,
@@ -1673,38 +1704,6 @@
       "js\\.stripe\\.com/v3/fingerprinted/js/elements-afterpay-clearpay-message-.+\\.js"
     ],
     "website": "https://www.afterpay.com/"
-  },
-
-  "AfterShip Returns Center": {
-    "cats": [
-      102
-    ],
-    "description": "AfterShip Returns Center is an interactive self-service return solution.",
-    "icon": "AfterShip Returns Center.svg",
-    "dom": "a[href*='.returnscenter.com']",
-    "saas": true,
-    "pricing": [
-      "freemium",
-      "payg"
-    ],
-    "url": "https.+\\.returnscenter\\.com",
-    "website": "https://www.aftership.com/returns"
-  },
-  "AfterShip": {
-    "cats": [
-      19
-    ],
-    "description": "AfterShip provides automated shipment tracking as a service.",
-    "icon": "AfterShip.svg",
-    "js": {
-      "aftership.__VERSION__": "([\\d\\.]+)\\;version:\\1"
-    },
-    "saas": true,
-    "pricing": [
-      "freemium",
-      "payg"
-    ],
-    "website": "https://www.aftership.com"
   },
   "Ahoy": {
     "cats": [
@@ -2021,9 +2020,9 @@
     "icon": "Algolia.svg",
     "js": {
       "AlgoliaSearch": "",
+      "__GLOBAL__.algolia": "",
       "__algolia": "",
-      "algoliasearch.version": "^(.+)$\\;version:\\1",
-      "__GLOBAL__.algolia": ""
+      "algoliasearch.version": "^(.+)$\\;version:\\1"
     },
     "pricing": [
       "freemium",
@@ -3686,9 +3685,9 @@
     "description": "Automizely creates and manages enterprise-level marketing automation systems including contact and CRM mappings, lead funnels, email nurture, lead-generating pages, and blog posts, and website integrations.",
     "icon": "Automizely.svg",
     "js": {
-      "automizelyConversions": "",
+      "AM_CONSENT_SDK.product": "automizely",
       "amStorefrontKit.hRequestEventTarget": "",
-      "AM_CONSENT_SDK.product": "automizely"
+      "automizelyConversions": ""
     },
     "pricing": [
       "freemium",
